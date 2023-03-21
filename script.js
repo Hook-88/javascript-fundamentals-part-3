@@ -21,7 +21,13 @@ const capitalize = (string) => {
   
 }
 
+//function last letter
+const lastLetter = (string) => {
+  return string.substr(-1, 1);
+}
+
 console.log(add7(7));
 console.log(multiply(3,3));
 console.log(capitalize('heLLo'));
+console.log(lastLetter("abcgdtelk"));
 
